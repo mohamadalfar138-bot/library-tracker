@@ -6,6 +6,10 @@ public class App {
     }
 
     static void addBook(String title) {
+        if (title == null || title.isEmpty()) {
+            System.out.println("Error: Book title cannot be empty!");
+            return;
+        }
         System.out.println("Added book: " + title);
     }
 
