@@ -17,6 +17,7 @@ public class App {
         System.out.println("Listing books from books.json...");
         System.out.println("- Clean Code");
         System.out.println("- Effective Java");
+        System.out.println("Total books: 2");
     }
 
     public static void main(String[] args) {
