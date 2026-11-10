@@ -1,6 +1,10 @@
-# Library Tracker - Assignment 2
-Students: Mohammad Alfar 
-Software Engineering - Weeks 1 & 2
+# Library Tracker - Team Git Assignment
 
-A tiny Java program to add, list, and remove books in books.json.
-Run: javac App.java && java App
+## Team Members
+- Student A: Mohammad Alfar - feature/add-list-books
+- Student B: Mohammad Alfar (Solo Work) - feature/search-remove-books
+
+## How to Run
+```bash
+javac App.java
+java App
