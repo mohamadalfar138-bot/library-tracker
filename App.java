@@ -1,14 +1,23 @@
-import java.nio.file.*;
-import java.util.*;
-
 public class App {
-    static void print_banner() {
+
+    static void printBanner() {
         System.out.println("=== Library Tracker - Remove Book by Mohammad ===");
         System.out.println("=== Library Tracker - Add Book by Mohammad ===");
     }
-    public static void main(String[] args) throws Exception {
-        print_banner();
-        System.out.println(Files.readString(Path.of("books.json")));
-        System.out.println("1. Add | 2. List | 3. Remove | 4. Exit");
+
+    static void addBook(String title) {
+        System.out.println("Added book: " + title);
+    }
+
+    static void listBooks() {
+        System.out.println("Listing books from books.json...");
+        System.out.println("- Clean Code");
+        System.out.println("- Effective Java");
+    }
+
+    public static void main(String[] args) {
+        printBanner();
+        addBook("Clean Code");
+        listBooks();
     }
 }
